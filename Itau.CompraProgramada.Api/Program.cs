@@ -1,4 +1,6 @@
 using Itau.CompraProgramada.Api.Infrastructure;
+using Itau.CompraProgramada.Application.Contracts;
+using Itau.CompraProgramada.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +20,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySQL(conn);
 });
 
+builder.Services.AddScoped<ICestaRecomendacaoRepository, CestaRecomendacaoRepository>();
 
 var app = builder.Build();
 
