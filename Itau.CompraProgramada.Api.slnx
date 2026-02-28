@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Itau.CompraProgramada.Api/Itau.CompraProgramada.Api.csproj" />
+  <Project Path="Itau.CompraProgramada.Application/Itau.CompraProgramada.Application.csproj" Id="dcd8e304-04d6-4152-9bfb-15942c59887d" />
+  <Project Path="Itau.CompraProgramada.Domain/Itau.CompraProgramada.Domain.csproj" Id="6d4fe545-84b4-4c70-a3a9-9525d7d901f9" />
+  <Project Path="Itau.CompraProgramada.Infrastructure/Itau.CompraProgramada.Infrastructure.csproj" Id="de0d3b34-a422-430a-a4fa-d26da96d08af" />
+</Solution>
